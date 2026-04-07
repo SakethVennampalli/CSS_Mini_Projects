@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.navbar{
+    background-color: aqua;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.references{
+    display: flex;
+    gap: 30px; 
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sidebar{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.article{
+    background-color: bisque;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.articles{
+    gap: 20px;
+    display: grid;
+}
+
+.footer{
+    background-color: aquamarine;
+    text-align: right;
+    font-weight: bold;
+    padding: 20px;
+}
+
